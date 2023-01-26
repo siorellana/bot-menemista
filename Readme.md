@@ -1,6 +1,4 @@
-[![Schedule](https://github.com/siorellana/bot-menemista/actions/workflows/python-sched.yml/badge.svg?branch=main)](https://github.com/siorellana/bot-menemista/actions/workflows/python-sched.yml)
-
-[![Known Vulnerabilities](https://snyk.io/test/github/siorellana/bot-menemista/badge.svg)](https://snyk.io/test/github/siorellana/bot-menemista)
+[![Schedule](https://github.com/siorellana/bot-menemista/actions/workflows/python-sched.yml/badge.svg?branch=main)](https://github.com/siorellana/bot-menemista/actions/workflows/python-sched.yml) [![Known Vulnerabilities](https://snyk.io/test/github/siorellana/bot-menemista/badge.svg)](https://snyk.io/test/github/siorellana/bot-menemista)
 
 # Bot Menemista
 
