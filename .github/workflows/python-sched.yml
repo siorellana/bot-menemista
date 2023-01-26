@@ -22,5 +22,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: Validate credential
+      run: echo $CONSUMER_KEY
+
     - name: Run script
       run: python bot-menemista.py
