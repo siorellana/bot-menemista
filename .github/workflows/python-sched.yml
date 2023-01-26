@@ -30,10 +30,10 @@ jobs:
 
     - name: Export credentials
       run: |
-        echo "CONSUMER_KEY=${{ secret.CONSUMER_KEY }}" >> $GITHUB_ENV
-        echo "CONSUMER_SECRET=${{ secret.CONSUMER_SECRET }}" >> $GITHUB_ENV
-        echo "ACCESS_TOKEN=${{ secret.ACCESS_TOKEN }}" >> $GITHUB_ENV
-        echo "ACCESS_TOKEN_SECRET=${{ secret.ACCESS_TOKEN_SECRET }}" >> $GITHUB_ENV
+        echo "CONSUMER_KEY=${{ secrets.CONSUMER_KEY }}" >> $GITHUB_ENV
+        echo "CONSUMER_SECRET=${{ secrets.CONSUMER_SECRET }}" >> $GITHUB_ENV
+        echo "ACCESS_TOKEN=${{ secrets.ACCESS_TOKEN }}" >> $GITHUB_ENV
+        echo "ACCESS_TOKEN_SECRET=${{ secrets.ACCESS_TOKEN_SECRET }}" >> $GITHUB_ENV
 
     - name: Run script
       run: python bot-menemista.py
