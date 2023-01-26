@@ -25,11 +25,7 @@ api = tweepy.API(auth)
 now = datetime.datetime.now()
 hour_string = now.strftime("%H:%M:%S")
 
-# Post a tweet
-#api.update_status("#MenemismoParaChile")
-#api.update_status("#MaximoMenem2042")
-#api.update_status("#ChileNecesitaMenemismo")
-
+# Get the future date
 future = datetime.datetime(2042, 11, 19, 1, 12, 13)
 
 # Calculate the difference between the current and future date and time
@@ -59,6 +55,8 @@ message = f"Esto es lo que falta para el cambio real en Chile: {days} días, {ho
 
 # Check if the minute of the current time is even
 if now.second % 2 == 0:
+    # Post a tweet
     api.update_status(message_pair)
 else:
+    # Post a tweet
     api.update_status(message)
