@@ -25,11 +25,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Validate credential
-      run: echo $CONSUMER_KEY
-
-    - name: Validate credential
-      run: echo ${{ vars.CONSUMER_KEY }}
+    - name: Export credentials
+      run: |
+        export CONSUMER_KEY=${{ vars.CONSUMER_KEY }}
+        export CONSUMER_SECRET=${{ vars.CONSUMER_SECRET }}
+        export ACCESS_TOKEN=${{ vars.ACCESS_TOKEN }}
+        export ACCESS_TOKEN_SECRET=${{ vars.ACCESS_TOKEN_SECRET }}
 
     - name: Run script
       run: python bot-menemista.py
