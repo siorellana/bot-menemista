@@ -1,3 +1,5 @@
+[![Schedule](https://github.com/siorellana/bot-menemista/actions/workflows/python-sched.yml/badge.svg?branch=main)](https://github.com/siorellana/bot-menemista/actions/workflows/python-sched.yml)
+
 # Bot Menemista
 
 Scipt en Python que fue creado con el fin de aprender a utilizar ChatGPT, el cual ha ido guiando en el desarrollo de este.
