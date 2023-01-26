@@ -27,13 +27,13 @@ jobs:
 
     - name: Review envs
       run: env
-      
+
     - name: Export credentials
       run: |
-        echo "CONSUMER_KEY=${{ vars.CONSUMER_KEY }}" >> $GITHUB_ENV
-        echo "CONSUMER_SECRET=${{ vars.CONSUMER_SECRET }}" >> $GITHUB_ENV
-        echo "ACCESS_TOKEN=${{ vars.ACCESS_TOKEN }}" >> $GITHUB_ENV
-        echo "ACCESS_TOKEN_SECRET=${{ vars.ACCESS_TOKEN_SECRET }}" >> $GITHUB_ENV
+        echo "CONSUMER_KEY=${{ secret.CONSUMER_KEY }}" >> $GITHUB_ENV
+        echo "CONSUMER_SECRET=${{ secret.CONSUMER_SECRET }}" >> $GITHUB_ENV
+        echo "ACCESS_TOKEN=${{ secret.ACCESS_TOKEN }}" >> $GITHUB_ENV
+        echo "ACCESS_TOKEN_SECRET=${{ secret.ACCESS_TOKEN_SECRET }}" >> $GITHUB_ENV
 
     - name: Run script
       run: python bot-menemista.py
