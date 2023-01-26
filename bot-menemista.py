@@ -30,7 +30,7 @@ hour_string = now.strftime("%H:%M:%S")
 #api.update_status("#MaximoMenem2042")
 #api.update_status("#ChileNecesitaMenemismo")
 
-future = datetime.datetime(2042, 1, 1, 1, 12, 13)
+future = datetime.datetime(2042, 11, 19, 1, 12, 13)
 
 # Calculate the difference between the current and future date and time
 delta = future - now
