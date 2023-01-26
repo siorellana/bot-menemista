@@ -17,3 +17,24 @@ Puedes aportar tus fraes menemistas en el archivo menemismo.txt y esta será ale
     * ChatGPT
     * Python
     * Github Actions
+
+---
+# Menemista Bot
+
+Scipt in Python that was created in order to learn how to use ChatGPT, which has been guiding its development.
+The script takes a random word from the menemismo.txt file and arms it with a timer for the 38th birthday of Maximo Menem Bolocco, old enough to run for president of the Republic of Chile.
+
+## Disclaimer
+
+This development is for educational purposes and is not and has not been requested by the Menem/Bolocco family for political purposes, so it only poses a fictitious future where Menemism resurfaces at the hands of his Chilean son to save the country as it once was. his father did with the sister nation of Argentina.
+
+## Contributions
+
+You can contribute your Menemistas phrases in the menemismo.txt file and this will be randomly selected to make a tweet from the Dev Menemista account <https://twitter.com/DevMenemista>
+
+## Tools
+
+     * Twitter API
+     * ChatGPT
+     * Python
+     * Github Actions
