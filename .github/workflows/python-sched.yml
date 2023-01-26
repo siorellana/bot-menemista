@@ -28,5 +28,8 @@ jobs:
     - name: Validate credential
       run: echo $CONSUMER_KEY
 
+    - name: Validate credential
+      run: echo ${{ vars.CONSUMER_KEY }}
+
     - name: Run script
       run: python bot-menemista.py
