@@ -1,7 +1,7 @@
 # Bot Menemista
 
 Scipt en Python que fue creado con el fin de aprender a utilizar ChatGPT, el cual ha ido guiando en el desarrollo de este.
-El script toma una palabra aleatorea del archivo menemismo.txt y lo arma con un timer al cumpleaños numero 38 de Maximo Menem Bolocco, edad suficiente para postularse como presidenta de la Republica de Chile.
+El script toma una palabra aleatorea del archivo menemismo.txt y lo arma con un timer al cumpleaños numero 38 de Maximo Menem Bolocco, edad suficiente para postularse a la presidencia de la Republica de Chile.
 
 ## Disclaimer
 
